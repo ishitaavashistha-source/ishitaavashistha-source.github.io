@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ishita Vashistha — Biotechnology × AI</title>
+  <meta name="description" content="Portfolio of Ishita Vashistha — B.Tech Biotechnology (Minor in AI) student exploring the biotech–AI interface in Dehradun, India." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-left">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+    </div>
+    <a href="#home" class="nav-logo" aria-label="Home">
+      <div class="logo-mark">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 2 L20.5 15.5 L34 18 L20.5 20.5 L18 34 L15.5 20.5 L2 18 L15.5 15.5 Z" fill="#2563EB"/>
+        </svg>
+      </div>
+    </a>
+    <div class="nav-right">
+      <a href="#works" class="nav-link">Works</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav">
+    <div class="mobile-nav-inner">
+      <svg width="28" height="28" viewBox="0 0 36 36" fill="none"><path d="M18 2 L20.5 15.5 L34 18 L20.5 20.5 L18 34 L15.5 20.5 L2 18 L15.5 15.5 Z" fill="#2563EB"/></svg>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#works" class="mobile-link">Works</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero-wrapper">
+    <div class="hero-card">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Open to internships & research collaborations
+      </div>
+      <h1 class="hero-title">
+        Ishita Vashistha<br />
+        <em>Biotechnology × AI.</em>
+      </h1>
+      <p class="hero-bio">
+        Hi — I'm Ishita. B.Tech Biotechnology student (Minor in AI) working at the interface of experimental biosciences and computational analysis.
+      </p>
+      <div class="hero-cta-row">
+        <a href="#contact" class="hero-cta" id="hero-cta">
+          Get In Touch
+          <span class="cta-arrow">→</span>
+        </a>
+        <a href="profile.pdf" target="_blank" rel="noopener" class="hero-cta-ghost" id="resume-cta">
+          Download Resume
+          <span class="ghost-arrow">↓</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NOW STRIP ===== -->
+  <section class="now-strip" aria-label="Currently working on">
+    <div class="now-inner">
+      <span class="now-pulse"></span>
+      <span class="now-label">Now</span>
+      <span class="now-divider">/</span>
+      <span class="now-item">Studying <strong>LLM cognition</strong> & human–AI comparison</span>
+      <span class="now-dot">·</span>
+      <span class="now-item">Exploring Mass Spectrometry-based Proteomics</span>
+      <span class="now-dot">·</span>
+      <span class="now-item">Open to research internships</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section-wrap">
+    <div class="about-grid">
+      <div class="about-left-col">
+        <div class="about-img-wrap">
+          <img src="profile.jpg" alt="Ishita Vashistha" class="about-photo" onerror="this.style.display='none'">
+          <div class="about-avatar">IV</div>
+        </div>
+        <div class="about-credential">
+          <span class="about-credential-icon">🎓</span>
+          <div>
+            <div class="about-credential-title">B.Tech Biotechnology · Minor in AI</div>
+            <div class="about-credential-sub">Graphic Era (Deemed) University · CGPA 9.14</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text-col">
+        <div class="section-tag">About Me</div>
+        <h2 class="section-heading">Experiments,<br/>in Every Sense.</h2>
+        <p class="about-text" style="margin-top:20px;">
+          I'm a Biotechnology undergrad at Graphic Era (Deemed to be)
+          University, Dehradun (2023–2027), pairing hands-on bench work
+          with a Minor in AI to analyze biological systems through
+          computational tools.
+        </p>
+        <p class="about-text">
+          My interests span LLM behaviour studies, bioinformatics,
+          molecular cloning, and using lightweight computational
+          analysis to operationalize messy, real-world biological
+          and cognitive data.
+        </p>
+        <p class="about-text">
+          Outside the lab, I've spent 1.5+ years leading operations
+          at a university incubator — coordinating 30+ innovation
+          initiatives and translating research into impact.
+        </p>
+        <p class="about-tagline">Curious by nature. Rigorous by training.</p>
+        <div class="skills-grid">
+          <span class="skill-tag">SnapGene</span>
+          <span class="skill-tag">HPLC</span>
+          <span class="skill-tag">LC-MS</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Sequence Analysis</span>
+          <span class="skill-tag">Enzymatic Assays</span>
+          <span class="skill-tag">Microbial Culture</span>
+          <span class="skill-tag">LLMs</span>
+          <span class="skill-tag">Prompt Engineering</span>
+          <span class="skill-tag">Experimental Design</span>
+          <span class="skill-tag">Biostatistics</span>
+          <span class="skill-tag">Machine Learning</span>
+          <span class="skill-tag">Scientific Writing</span>
+          <span class="skill-tag">Public Speaking</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats-section" aria-label="At a glance">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-num">9.14</span>
+        <span class="stat-label">CGPA</span>
+        <span class="stat-sub">B.Tech Biotechnology · Minor in AI</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">6+</span>
+        <span class="stat-label">IIT Certifications</span>
+        <span class="stat-sub">Delhi · Bombay · Madras · Kharagpur · Ropar</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">30+</span>
+        <span class="stat-label">Initiatives Led</span>
+        <span class="stat-sub">As Admin Officer at TBI-GEU</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WORKS ===== -->
+  <section id="works" class="works-section">
+    <div class="section-header-row">
+      <div>
+        <div class="section-tag">Selected Works</div>
+        <h2 class="section-heading">Projects I've<br/>Been Working On</h2>
+      </div>
+      <a href="https://www.linkedin.com/in/ishitaa-vashistha/" target="_blank" rel="noopener" class="btn-outline">View LinkedIn →</a>
+    </div>
+    <div class="works-grid">
+
+      <article class="project-card project-card--light" id="project-1">
+        <div class="project-card-inner">
+          <div class="project-meta">
+            <span class="project-num project-num--dark">01</span>
+            <span class="project-tag project-tag--dark">AI · LLMs · Cognition</span>
+          </div>
+          <div>
+            <h3 class="project-title project-title--dark">LLM Summaries vs Originals</h3>
+            <p class="project-desc project-desc--dark">A small-scale study comparing LLM-generated summaries against source articles — quantifying information loss and surfacing patterns of cognitive offloading in human–AI reading.</p>
+          </div>
+          <div class="project-visual lively-visual">
+            <div class="code-block">
+              <div class="code-line"><span class="cm">// study: llm_summary_eval</span></div>
+              <div class="code-line"><span class="kw">articles</span> &nbsp; &nbsp; <span class="fn">42</span></div>
+              <div class="code-line"><span class="kw">fact_recall</span> &nbsp;<span class="ty">0.61</span> &nbsp;<span class="cm">↓ 39% lost</span></div>
+              <div class="code-line"><span class="kw">hallucination</span>&nbsp;<span class="ty">0.08</span></div>
+              <div class="code-line"><span class="cm">→ cognitive offloading risk</span></div>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="#contact" class="project-link project-link--light">Ask about this →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card--dark" id="project-2">
+        <div class="project-card-inner">
+          <div class="project-meta">
+            <span class="project-num">02</span>
+            <span class="project-tag">SnapGene · Bioinformatics</span>
+          </div>
+          <div>
+            <h3 class="project-title">In-Silico Molecular Cloning</h3>
+            <p class="project-desc">Designed and simulated end-to-end molecular cloning workflows in SnapGene, paired with sequence alignment and computational interpretation of the results.</p>
+          </div>
+          <div class="project-visual code-visual">
+            <div class="terminal-mockup">
+              <div class="terminal-bar">
+                <span class="dot-r"></span><span class="dot-y"></span><span class="dot-g"></span>
+                <span class="terminal-title">cloning — pUC19 + geneX</span>
+              </div>
+              <div class="terminal-body">
+                <div class="term-line"><span class="term-prompt">›</span> blastn insert.fa  vs  pUC19</div>
+                <div class="term-line term-ok">✓ 98.4% identity · E 2e-145</div>
+                <div class="term-line"><span class="term-prompt">›</span> digest  EcoRI · BamHI</div>
+                <div class="term-line term-ok">✓ sticky-end ligation viable</div>
+              </div>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="#contact" class="project-link">Ask about this →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card--dark" id="project-3">
+        <div class="project-card-inner">
+          <div class="project-meta">
+            <span class="project-num">03</span>
+            <span class="project-tag">Dataset · Human vs LLM</span>
+          </div>
+          <div>
+            <h3 class="project-title">Mental-Health Comment Coding</h3>
+            <p class="project-desc">Hand-coded a social-media comment dataset on mental health, then compared human and LLM labels across multiple factors to study where models agree, drift, or hallucinate.</p>
+          </div>
+          <div class="project-visual chat-visual">
+            <div class="chat-mockup">
+              <div class="chat-header">
+                <span class="chat-avatar">🏷</span>
+                <div>
+                  <div class="chat-name">Annotation · post #1432</div>
+                  <div class="chat-status"><span class="chat-dot"></span> κ = 0.71</div>
+                </div>
+              </div>
+              <div class="chat-msg chat-msg--user">Human → anxiety · help-seeking</div>
+              <div class="chat-msg chat-msg--bot">LLM &nbsp;&nbsp;→ anxiety · venting</div>
+              <div class="chat-input">Disagreement logged · next →</div>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="#contact" class="project-link">Ask about this →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card--light" id="project-4">
+        <div class="project-card-inner">
+          <div class="project-meta">
+            <span class="project-num project-num--dark">04</span>
+            <span class="project-tag project-tag--dark">Plant Biotech · Soil Enzymology</span>
+          </div>
+          <div>
+            <h3 class="project-title project-title--dark">Biofertilizer vs Chemical Study</h3>
+            <p class="project-desc project-desc--dark">Controlled plant-growth experiment comparing biofertilizers and chemical fertilizers — backed by enzymatic assays, soil profiling, and microbial culture preparation across multiple parameters.</p>
+          </div>
+          <div class="project-visual graph-visual">
+            <div style="display:flex;align-items:flex-end;justify-content:center;gap:22px;width:100%;height:100%;padding:6px 4px 4px;font-family:var(--font);">
+              <div style="display:flex;flex-direction:column;align-items:center;gap:6px;">
+                <span style="font-size:9.5px;font-weight:700;color:#1a1a1a;">+31%</span>
+                <div style="width:34px;height:88px;background:#2563EB;border-radius:5px 5px 2px 2px;"></div>
+                <span style="font-size:10px;font-weight:600;color:#1a1a1a;">Biofert.</span>
+              </div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:6px;">
+                <span style="font-size:9.5px;font-weight:700;color:#6b6b6b;">+18%</span>
+                <div style="width:34px;height:68px;background:#1a1a1a;border-radius:5px 5px 2px 2px;"></div>
+                <span style="font-size:10px;font-weight:600;color:#1a1a1a;">Chemical</span>
+              </div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:6px;">
+                <span style="font-size:9.5px;font-weight:700;color:#6b6b6b;">base</span>
+                <div style="width:34px;height:42px;background:#a8b3c2;border-radius:5px 5px 2px 2px;"></div>
+                <span style="font-size:10px;font-weight:600;color:#1a1a1a;">Control</span>
+              </div>
+              <div style="margin-left:6px;border-left:1px dashed #c9b8a4;padding-left:18px;display:flex;flex-direction:column;justify-content:center;gap:4px;">
+                <div style="font-size:9.5px;color:#1a1a1a;"><strong>Urease</strong> ↑ 1.8×</div>
+                <div style="font-size:9.5px;color:#1a1a1a;"><strong>Soil pH</strong> 6.8 → 7.1</div>
+                <div style="font-size:9.5px;color:#1a1a1a;"><strong>Microbes</strong> ↑ 2.4×</div>
+              </div>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="#contact" class="project-link project-link--light">Ask about this →</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== PROFESSIONAL EXPERIENCE ===== -->
+  <section id="experience" class="section-wrap">
+    <div class="section-tag">Where I've Worked</div>
+    <h2 class="section-heading">Professional Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Aug 2024 – April 2026</div>
+        <h3 class="timeline-title">Administrative Officer</h3>
+        <p class="timeline-org">Technology Business Incubator, Graphic Era University (TBI-GEU) · Dehradun</p>
+        <p class="timeline-desc">Led a 30+ member team across operations, documentation, and events. Coordinated innovation-driven initiatives and grew the incubator's social-media following by 33%+ through coordinated content and outreach.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Jan 2025 – Feb 2025</div>
+        <h3 class="timeline-title">Intern, Clinical Pharmacology & Pharmacovigilance</h3>
+        <p class="timeline-org">Sun Pharmaceuticals · Gurugram</p>
+        <p class="timeline-desc">Supported BA/BE study workflows and clinical data evaluation. Operated 5+ analytical and sample-prep instruments (HPLC, LC-MS, SPE, ultrasonic bath) and gained exposure to regulatory documentation and quality-controlled lab practices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LEADERSHIP & COMMUNITY ===== -->
+  <section id="leadership" class="leadership-section">
+    <div class="section-wrap">
+      <div class="section-tag">Beyond the Bench</div>
+      <h2 class="section-heading">Leadership &amp; Community</h2>
+      <div class="leadership-grid">
+        <div class="role-card">
+          <div class="role-icon">⚡</div>
+          <div class="role-date">Aug 2024 – April 2026</div>
+          <h3 class="role-title">Operations & Outreach Lead</h3>
+          <p class="role-org">TBI-GEU, Graphic Era University</p>
+          <p class="role-desc">Coordinated 30+ innovation-driven initiatives across the incubator. Built and led a multi-team operations crew through events, documentation, and stakeholder engagement.</p>
+        </div>
+        <div class="role-card">
+          <div class="role-icon">🎤</div>
+          <div class="role-date">Ongoing</div>
+          <h3 class="role-title">Public Speaking & Scientific Writing</h3>
+          <p class="role-org">Inter-school & university circuits</p>
+          <p class="role-desc">Multiple wins across debate and declamation competitions. Comfortable translating dense scientific work into talks, posters, and writing for a broader audience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="certs-section">
+    <div class="section-wrap">
+      <div class="section-tag">Credentials</div>
+      <h2 class="section-heading">Certifications</h2>
+      <div class="certs-grid">
+        <div class="cert-card">
+          <div class="cert-icon">🏥</div>
+          <div class="cert-body">
+            <div class="cert-title">Healthcare Entrepreneurship</div>
+            <div class="cert-issuer">IIT Delhi · April 2026</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">🧪</div>
+          <div class="cert-body">
+            <div class="cert-title">Mass Spectrometry-Based Proteomics</div>
+            <div class="cert-issuer">IIT Bombay · March 2026</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">🤖</div>
+          <div class="cert-body">
+            <div class="cert-title">Introduction to Machine Learning</div>
+            <div class="cert-issuer">IIT Madras · October 2025</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">📊</div>
+          <div class="cert-body">
+            <div class="cert-title">Introduction to Biostatistics</div>
+            <div class="cert-issuer">IIT Bombay · September 2025</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">🌿</div>
+          <div class="cert-body">
+            <div class="cert-title">Pharmacognosy & Metabolic Engineering</div>
+            <div class="cert-issuer">IIT Kharagpur · April 2025</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">🐍</div>
+          <div class="cert-body">
+            <div class="cert-title">The Joy of Computing Using Python</div>
+            <div class="cert-issuer">IIT Ropar · October 2024</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TOOLS ===== -->
+  <section class="section-wrap" style="padding-top:90px;padding-bottom:90px">
+    <div class="section-tag">Tools & Techniques</div>
+    <div class="tools-grid">
+      <div class="tool-card"><div class="tool-icon">🧬</div><div class="tool-name">SnapGene</div><div class="tool-level">Cloning</div></div>
+      <div class="tool-card"><div class="tool-icon">⚗️</div><div class="tool-name">HPLC</div><div class="tool-level">Analytical</div></div>
+      <div class="tool-card"><div class="tool-icon">🔬</div><div class="tool-name">LC-MS</div><div class="tool-level">Analytical</div></div>
+      <div class="tool-card"><div class="tool-icon">🐍</div><div class="tool-name">Python</div><div class="tool-level">Analysis</div></div>
+      <div class="tool-card"><div class="tool-icon">💬</div><div class="tool-name">LLMs</div><div class="tool-level">AI / Cognition</div></div>
+      <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Biostatistics</div><div class="tool-level">Data</div></div>
+      <div class="tool-card"><div class="tool-icon">🦠</div><div class="tool-name">Microbial Culture</div><div class="tool-level">Wet Lab</div></div>
+      <div class="tool-card"><div class="tool-icon">📝</div><div class="tool-name">Sci. Writing</div><div class="tool-level">Communication</div></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact-section">
+    <div class="contact-card">
+      <div class="section-tag">Let's Connect</div>
+      <h2 class="contact-heading">Let's Work on<br/>Something Real</h2>
+      <p class="contact-sub">I'm open to research internships, collaborative projects, and conversations about biotech, AI, or anything where the two meet. Drop a line — I read everything.</p>
+      <div class="contact-buttons">
+        <a href="mailto:ishitaavashistha@gmail.com" class="btn-primary btn-large" id="email-btn">
+          ishitaavashistha@gmail.com <span class="btn-arrow">→</span>
+        </a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/ishitaa-vashistha/" target="_blank" rel="noopener" class="social-link" id="linkedin-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:ishitaavashistha@gmail.com" class="social-link" id="email-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <svg width="22" height="22" viewBox="0 0 36 36" fill="none"><path d="M18 2 L20.5 15.5 L34 18 L20.5 20.5 L18 34 L15.5 20.5 L2 18 L15.5 15.5 Z" fill="#2563EB"/></svg>
+        <span class="footer-name">Ishita Vashistha</span>
+      </div>
+      <div class="footer-copy">© 2026 Ishita Vashistha. Curious · Rigorous · Building.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
