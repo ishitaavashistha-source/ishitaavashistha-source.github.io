@@ -80,4 +80,4 @@ document.querySelectorAll('.tool-card').forEach(card => {
   });
 });
 
-console.log('✦ Portfolio by Ishita Vashistha – Loaded');
+console.log('✦ Portfolio by Ishita Vashistha - Loaded');

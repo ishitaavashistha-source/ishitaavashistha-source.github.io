@@ -1,12 +1,12 @@
 # ishitaavashistha-source.github.io
 
-Personal portfolio of **Ishita Vashistha** — B.Tech Biotechnology student (Minor in AI) at Graphic Era (Deemed to be) University, Dehradun. Working at the interface of experimental biosciences, bioinformatics, and AI cognition research.
+Personal portfolio of **Ishita Vashistha** - B.Tech Biotechnology student (Minor in AI) at Graphic Era (Deemed to be) University, Dehradun. Working at the interface of experimental biosciences, bioinformatics, and AI cognition research.
 
 🌐 **Live site:** [ishitaavashistha-source.github.io](https://ishitaavashistha-source.github.io)
 
 ## About
 
-A single-page portfolio covering research projects, internships, certifications, and leadership work. Designed and built from scratch — no frameworks, no build step.
+A single-page portfolio covering research projects, internships, certifications, and leadership work. Designed and built from scratch - no frameworks, no build step.
 
 ## Stack
 
